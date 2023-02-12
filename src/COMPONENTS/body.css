@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Allura&family=Anton&family=Babylonica&family=Homemade+Apple&family=Josefin+Sans:ital,wght@1,600&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Lora:wght@700&family=PT+Serif:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Allura&family=Anton&family=Babylonica&family=Homemade+Apple&family=Josefin+Sans:ital,wght@1,600&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Lora:wght@700&family=PT+Serif:ital,wght@0,700;1,700&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Allura&family=Anton&family=Babylonica&family=Homemade+Apple&family=Josefin+Sans:ital,wght@1,600&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Lora:wght@700&family=PT+Serif:ital,wght@0,700;1,700&family=Rock+Salt&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Allura&family=Anton&family=Babylonica&family=Cabin+Sketch:wght@700&family=Homemade+Apple&family=Josefin+Sans:ital,wght@1,600&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Lora:wght@700&family=PT+Serif:ital,wght@0,700;1,700&family=Rock+Salt&family=Rubik+Vinyl&display=swap');
+
+.App-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.App-box h4 {
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.buttons {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.791);
+}
+
+.search-bar {
+    background-color: rgba(255, 255, 255, 0.789);
+}
+
+.buttons input {
+    height: 2em;
+    width:20em;
+    margin-right: 0.3em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.buttons button {
+    height: 2.4em;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.b-keyword {
+    font-weight: 700;
+}
+
+.clear-button {
+    width: 8em;
+    margin-left: 9px;
+}
+
+.welcome-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    background-color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border: .5px solid black;
+}
+
+.welcome-page:hover {
+    box-shadow: 0 0 90px rgba(221, 221, 221, 0.777);
+    transition: .3s;
+}
+
+.search-form:hover {
+    box-shadow: 0 0 80px white;
+    transition: .2s ;
+}
+
+.welcome-page h1 {
+    font-family: 'Cabin Sketch', cursive;
+    color: rgb(236, 135, 12);
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.766);
+    font-size: 3rem;
+    background-color: rgba(28, 28, 28, 0.743);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.welcome-page h3 {
+   color: rgb(231, 153, 59);
+   font-weight: 200;
+   text-shadow: 0 0 30px rgba(174, 174, 174, 0.991);
+   background-color: rgba(28, 28, 28, 0.695);
+   padding: 5px 20px;
+   border-radius: 5px;
+   font-family: 'Cabin Sketch', cursive;
+}
+
+.cont-map {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.keyword {
+    justify-content: center;
+    text-align: center;
+    color: rgb(8, 8, 8);
+    background-color: rgba(244, 244, 244, 0.521);
+    width: 200px;
+    height: 60px;
+    border-radius: 2px;
+    border: 1.4px solid rgb(214, 144, 32);
+}
+
+.b-b {
+    display: flex;
+    justify-content: center;    
+} 
+
+.welcome-page {
+    margin-top: 300px;
+    background-color: rgba(64, 64, 64, 0.422);
+    color: black;
+    border: 3px dashed rgba(229, 131, 12, 0.927) ;
+    box-shadow: 0 0 50px rgb(154, 154, 154);
+    text-shadow: 1px 1px rgb(149, 149, 149);
+}
+
+.search-button {
+    color: rgba(233, 164, 80, 0.842);
+    background-color: rgba(54, 54, 54, 0.651);
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: rgba(85, 85, 85, 0.651);
+    transition: 0.3s;
+}
+
+.clear-button {
+    color: rgba(233, 164, 80, 0.842);
+    background-color: rgba(54, 54, 54, 0.651);
+    cursor: pointer;
+}
+
+.clear-button:hover {
+    background-color: rgba(85, 85, 85, 0.651);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 800px) {
+    .welcome-page {
+        width: 30rem;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .welcome-page h1 {
+        width: 20rem;
+        transition: 0.3s;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .welcome-page {
+        width: 25rem;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .welcome-page h1 {
+        width: 20rem;
+        transition: 0.3s;
+    }
+}

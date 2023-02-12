@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Allura&family=Annie+Use+Your+Telescope&family=Anton&family=Babylonica&family=Cabin+Sketch:wght@700&family=Homemade+Apple&family=Indie+Flower&family=Josefin+Sans:ital,wght@1,600&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Lora:wght@700&family=PT+Serif:ital,wght@0,700;1,700&family=Pacifico&family=Patrick+Hand&family=Rock+Salt&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Allura&family=Anton&family=Babylonica&family=Cabin+Sketch:wght@700&family=Homemade+Apple&family=Josefin+Sans:ital,wght@1,600&family=Kaushan+Script&family=Lobster+Two:ital@1&family=Lora:wght@700&family=PT+Serif:ital,wght@0,700;1,700&family=Pacifico&family=Rock+Salt&family=Rubik+Vinyl&display=swap');
+
+.container-recipe {
+    border-radius: 15px;
+    box-shadow:0px 5px 20px rgb(71,71,71) ;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    width: 25em;
+    min-height: 50em;
+    text-align: center;
+    background-color: rgba(165, 161, 151, 0.59);
+    border: 3px solid rgb(45, 45, 45);
+}
+
+.container-recipe:hover {
+    background-color: rgba(223, 221, 221, 0.59);
+    transition: .3s;
+}
+
+.image {
+    width: 19em;
+    border-radius: 10%;
+    border: 2px solid rgba(77, 73, 65, 0.574);
+    box-shadow: 0 0 40px rgba(232, 232, 232, 0.637)
+}
+
+.container-recipe h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.container-recipe li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-recipe ol {
+    font-weight: 600;
+}
+
+.list li {
+    color: rgba(0, 0, 0, 0.997);
+    font-family: 'Patrick Hand', cursive; 
+    font-size: 1.3em;
+    text-shadow: 0 0 40px rgb(0, 0, 0);
+}
